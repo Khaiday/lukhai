@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dành tặng em 20/10</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<canvas id="stars"></canvas>
+
+<!-- MÀN 1: bó hoa (ảnh các bạn nữ + bướm được js/bouquet.js thêm vào #b) -->
+<div id="s1" class="scr">
+  <div id="b"><img class="bq" src="images/bouquet.jpg" alt=""><div id="ring"></div></div>
+  <div class="hint" id="hint"></div>
+</div>
+
+<!-- MÀN 2: mưa chữ (js/rain.js) -->
+<div id="rain" class="scr hide"></div>
+<button id="mail" class="hide"><span class="ic"><i>♥</i></span><span id="mailTxt"></span></button>
+<button id="mute" class="hide">🔊</button>
+
+<!-- MÀN 3: phong bì + lá thư (js/letter.js) -->
+<div id="ov" class="scr hide">
+  <img id="env" src="images/env.jpg" alt="">
+  <div class="eh" id="eh"></div>
+  <div id="paper">
+    <img class="fl tl" src="images/flower.jpg" alt=""><img class="fl br" src="images/flower.jpg" alt="">
+    <h2 id="lTitle"></h2><p id="lBody"></p>
+    <img class="gi" id="lPhoto" alt="">
+  </div>
+  <button id="cls">Đóng</button>
+</div>
+
+<audio id="au" loop playsinline></audio>
+
+<!-- Thứ tự nạp quan trọng, không đảo -->
+<script src="js/config.js"></script>
+<script src="js/stars.js"></script>
+<script src="js/bouquet.js"></script>
+<script src="js/rain.js"></script>
+<script src="js/letter.js"></script>
+<script src="js/main.js"></script>
+</body></html>

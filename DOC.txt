@@ -1,0 +1,12 @@
+CẤU TRÚC
+index.html     khung trang
+css/style.css  giao diện
+js/config.js   <<< CHỈ SỬA FILE NÀY: ảnh, nhạc, câu chúc, lời thư, thời gian
+js/stars.js    nền sao
+js/bouquet.js  bó hoa (chạm, ấn giữ)
+js/rain.js     mưa chữ
+js/letter.js   nút thư, phong bì, lá thư
+js/main.js     nối các phần + nhạc
+images/        ảnh   |   music/  nhạc
+
+XEM TRÊN ĐIỆN THOẠI: đưa cả thư mục lên Netlify Drop (app.netlify.com/drop) hoặc GitHub Pages, sẽ có link mở được trên mọi máy.
